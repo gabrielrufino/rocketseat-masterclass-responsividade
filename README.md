@@ -26,3 +26,13 @@ Unidades de medidas do CSS
 
 * `em`  - Multiplicado pelo pai
 * `rem` - Multiplicado pelo root
+
+## Media queries
+
+```css
+@media (max-width: 320px) {
+  #form h3 {
+    font-size: 2rem;
+  }
+}
+```
